@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>pizzas</h1>
+
+    </header>
+<div class="containerall">
+    <div class="container">
+
+        <div class="card">
+            <div class="img">
+                <img src="../img/p1.jpg" alt="">
+            </div>    
+                <div class="divplus">
+                    + 
+                </div>
+                    <div class="valor">
+                        R$ 21,99
+                    </div>
+                    <div class="tipopizza">
+                        mussarela
+                    </div>
+                        <div class="descripizza">
+                            Descrição da pizza em mais de uma linha , muito legal, muito interessante
+                        </div>
+            
+        </div>   
+        <div class="card">
+            <div class="img">
+                <img src="../img/p2.jpg" alt="">
+            </div>    
+                <div class="divplus">
+                    + 
+                </div>
+                    <div class="valor">
+                        R$ 21,99
+                    </div>
+                    <div class="tipopizza">
+                        calabresa
+                    </div>
+                        <div class="descripizza">
+                            Descrição da pizza em mais de uma linha , muito legal, muito interessante
+                        </div>
+            
+        </div> 
+        <div class="card">
+            <div class="img">
+                <img src="../img/p1.jpg" alt="">
+            </div>    
+                <div class="divplus">
+                    + 
+                </div>
+                    <div class="valor">
+                        R$ 21,99
+                    </div>
+                    <div class="tipopizza">
+                        quatro queijos
+                    </div>
+                        <div class="descripizza">
+                            Descrição da pizza em mais de uma linha , muito legal, muito interessante
+                        </div>
+            
+        </div>
+        <div class="card">
+            <div class="img">
+                <img src="../img/p1.jpg" alt="">
+            </div>    
+                <div class="divplus">
+                    + 
+                </div>
+                    <div class="valor">
+                        R$ 21,99
+                    </div>
+                    <div class="tipopizza">
+                        mussarela
+                    </div>
+                        <div class="descripizza">
+                            Descrição da pizza em mais de uma linha , muito legal, muito interessante
+                        </div>
+            
+        </div>   
+        <div class="card">
+            <div class="img">
+                <img src="../img/p2.jpg" alt="">
+            </div>    
+                <div class="divplus">
+                    + 
+                </div>
+                    <div class="valor">
+                        R$ 21,99
+                    </div>
+                    <div class="tipopizza">
+                        calabresa
+                    </div>
+                        <div class="descripizza">
+                            Descrição da pizza em mais de uma linha , muito legal, muito interessante
+                        </div>
+            
+        </div> 
+        <div class="card">
+            <div class="img">
+                <img src="../img/p1.jpg" alt="">
+            </div>    
+                <div class="divplus">
+                    + 
+                </div>
+                    <div class="valor">
+                        R$ 21,99
+                    </div>
+                    <div class="tipopizza">
+                        quatro queijos
+                    </div>
+                        <div class="descripizza">
+                            Descrição da pizza em mais de uma linha , muito legal, muito interessante
+                        </div>
+            
+        </div>
+    </div>
+
+<!---  CARRINHO DE COMPRAS   --->
+
+    <div class="car">
+        <div class="titlecar">
+            &#128722;
+            Suas pizzas
+        </div>
+        <div class="carTipo divs">
+            <img src="../img/p1.jpg" alt="">
+            <div class="tipoNome">Mussarela (G)</div>
+            <input type="number" name="quantPizza" id="quantPizza" class="tvalor">
+
+        </div>
+        <hr>
+        <div class="subtotal divs">
+            <div class="subtitle">subtotal</div>
+            <div class="totalValor" id="subTotalValor">R$ 100,95</div>
+        </div>
+        <hr>
+        <div class="desconto divs">
+            <div class="subtitle" >Desconto (10%)</div>
+            <div class="totalValor"  id="desconto">
+            </div>
+        </div>
+        <hr>
+        <div class="total divs">
+            <div class="subtitle">Total</div>
+            <div class="totalValor" id="tvalor">R$ 110.90</div>
+        </div>
+        <button id="btnCarrinho" class="finalizarCompra">Finalizar Compra &#127765	       </button>
+    
+    </div>
+
+<!-- MODAL PARA ESCOLHAS DAS PIZZAS    -->
+    <div class="modal">
+        <div class="containerModal">
+            <div class="img"> 
+                <img src="../img/p1.jpg" alt="">
+            </div>
+                <div class="modaldescri">
+                    <div class="tipoPizza divsModal">
+                        <h1>Mussarela</h1>
+                    </div>
+                    <div class="descPizza divsModal">
+                        descrição de pizzas com mais de uma linha muito legal este efeito
+                    </div>
+                    <h3 id="h3tamanhoMOdal">tamanho</h3>
+
+                    <div class="modalTamanho">
+                        <div class="modalTamanhoDiv">
+                            <button class="tamanho p" id="btnP">PEQUENA 100G</button>
+                            <div class="addItens">
+                                <img src="../img/plus1.svg" alt="" id="imgprecoPPlus" class="imgPlusOrMinus">
+                                <img src="../img/minus1.svg" alt="" id="imgprecoPMinus" class="imgPlusOrMinus">
+                            </div>
+                            
+                        </div>
+                        <div class="modalTamanhoDiv">
+                            <button class="tamanho m" id="btnM">MEDIA 300G</button>
+                            <div class="addItens">
+                                <img src="../img/plus1.svg" alt="" id="imgprecoMPlus" class="imgPlusOrMinus">
+                                <img src="../img/minus1.svg" alt="" id="imgprecoMMinus" class="imgPlusOrMinus">
+                            </div>
+                            
+                        </div>
+                        <div class="modalTamanhoDiv">
+                            <button class="tamanho g" id="btnG">GRANDE 500G</button>
+                            <div class="addItens">
+                                <img src="../img/plus1.svg" alt="" id="imgprecoGPlus" class="imgPlusOrMinus">
+                                <img src="../img/minus1.svg" alt="" id="imgprecoGMinus" class="imgPlusOrMinus">
+                            </div>
+                            
+                        </div>
+                    </div>    
+                        
+
+                    <div class= "modalPreco divsModal">
+                        <h3> R$</h3>
+
+                        <div class="modalPrecoTotal"><h2></h2>
+                        </div>
+                        
+
+                    </div>
+
+        <button id="btnModalCompra" class="finalizarCompra">Adicionar ao Carrinho  &#128178</button>
+        <span class="close">&#10060</span>
+
+
+                    </div>
+                   
+                   
+
+        
+                    
+                </div>
+
+        </div>
+
+
+    </div>
+   
+   
+    </div>
+</div>   
+
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

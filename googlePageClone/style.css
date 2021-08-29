@@ -103,7 +103,24 @@ nav img{
     width: 100%;
     padding-bottom: 15px;
 }
+.faleconosco{
+    background-color: black;
+    color: wheat;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    animation-name: rotate 3s linear infinite;
 
+}
+@keyframes rotate {
+    from{
+    transform : rotate(0deg);
+
+}
+    to{
+        transform: rotate(360deg);
+    }
+}
 
 
 

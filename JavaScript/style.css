@@ -1,0 +1,27 @@
+body{
+    background-color:rgb(172, 148, 156);
+}
+#exemplo1{
+    width: 200px;
+    height: 200px;
+}
+.verde{
+    background-color: green;
+}
+.vermelho{
+    background-color: red;
+}
+.azul{
+    background-color: blue;
+}
+
+.imagem img{
+    width: 150px;
+    
+}
+.bg{
+    background-color:pink;
+}
+.bg1{
+    background-color: aqua;
+}
